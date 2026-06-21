@@ -30,7 +30,7 @@ const App = ()=>{
         <Route path="/attendance" element={<Attendance/>}/>
         <Route path="/leave" element={<Leave/>}/>
         <Route path="/payslips" element={<PaySlips/>}/>
-        <Route path="/setting" element={<Settings/>}/>
+        <Route path="/settings" element={<Settings/>}/>
       </Route>
       <Route path="/print/payslips/:id" element={<PrintPaySlip />}/>
 
