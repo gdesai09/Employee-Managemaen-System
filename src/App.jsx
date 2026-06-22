@@ -11,6 +11,7 @@ import PaySlips from "./pages/PaySlips";
 import Settings from "./pages/Settings";
 import PrintPaySlip from"./pages/PrintPaySlip";
 import LoginForm from "./components/LoginForm";
+import RegisterForm from "./components/RegisterForm";
 
 
 const App = ()=>{
@@ -23,6 +24,8 @@ const App = ()=>{
       <Route path="/login/admin" element={ <LoginForm role="admin" title="Admin Portal" subtitle="Sign in to manage the organization"/> }/>
 
       <Route path="/login/employee" element={ <LoginForm role="employee" title="Employee Portal" subtitle="Sign in to acess your account"/> }/>
+
+      <Route path="/register" element={<RegisterForm/>}/>
 
       <Route element={<Layout />}>
         <Route path="/dashboard" element={<DashBoard/>}/>
