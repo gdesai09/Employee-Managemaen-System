@@ -23,7 +23,7 @@ const Sidebar = () => {
   const [username, setUserName] = useState("");
   const [mobileOpen, setMobileOpen] = useState(false);
 
-  const role = "EMPLOYEE"; // or EMPLOYEE
+  const role = "ADMIN"; // or EMPLOYEE
 
   useEffect(() => {
     setUserName(`${dummyProfileData.firstName} ${dummyProfileData.lastName}`);
